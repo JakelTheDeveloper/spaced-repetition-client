@@ -1,0 +1,11 @@
+.LoginForm{
+    text-align: center;
+}
+
+#login-username-input{
+    margin-bottom: 10px;
+}
+
+#login-password-input{
+    margin-bottom: 10px;
+}

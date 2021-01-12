@@ -1,0 +1,25 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 0 0;
+}
+#li{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+header{
+    border:solid 2px teal;
+    background: linear-gradient(to bottom, rgb(140, 252, 228) 0, rgb(46, 207, 159));
+}

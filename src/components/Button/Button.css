@@ -1,0 +1,25 @@
+.Button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, rgb(72, 131, 118) 0, rgb(12, 53, 41));
+    border-radius: 80px;
+    border: 0;
+    color: white;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+.Button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all .4s ease-out;
+    font-weight: bold;
+    padding: 10px;
+}
+.btnHolder{
+    text-align: center;
+}

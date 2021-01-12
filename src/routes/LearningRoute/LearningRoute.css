@@ -1,0 +1,14 @@
+.spanClass{
+    display: flex;
+    justify-content: center;
+    border:solid 2px teal;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(140, 252, 228) 0, rgb(46, 207, 159));
+}
+.answer_label{
+    display: flex;
+    justify-content: center;
+}
+section{
+    text-align: center;
+}

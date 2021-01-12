@@ -20,7 +20,7 @@ class Header extends Component {
         <nav>
           <Link
             onClick={this.handleLogoutClick}
-            to='/login'>
+            to='/login' id = 'li'>
             Logout
           </Link>
         </nav>
@@ -31,9 +31,9 @@ class Header extends Component {
   renderLoginLink() {
     return (
       <nav>
-        <Link to='/login'>Login</Link>
+        <Link to='/login' id = 'li'>Login</Link>
         {' '}
-        <Link to='/register'>Sign up</Link>
+        <Link to='/register' id = 'li'>Sign up</Link>
       </nav>
     )
   }

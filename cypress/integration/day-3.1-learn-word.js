@@ -23,7 +23,7 @@ describe(`User story: Presented with word`, function() {
       .as('languageHeadRequest')
   })
 
-  it('displays the current score and h2 with next word', () => {
+  it('displays the current score and h1 with next word', () => {
     cy.login()
       .visit(`/learn`)
       .wait('@languageHeadRequest')
@@ -31,7 +31,7 @@ describe(`User story: Presented with word`, function() {
     cy.fixture('language-head.json')
       .then(languageHeadFixture => {
         cy.get('main').within($main => {
-          cy.get('h2')
+          cy.get('h1')
             .should('have.text', 'Translate the word:')
             .siblings('span')
             .should('have.text', languageHeadFixture.nextWord)

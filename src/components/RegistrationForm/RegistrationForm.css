@@ -1,0 +1,25 @@
+
+#registration-name-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.registration-name-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:right;
+}
+#registration-username-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#registration-password-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.centerIt{
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    margin-left: -20px;
+}

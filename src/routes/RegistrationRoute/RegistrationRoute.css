@@ -1,0 +1,10 @@
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    border:solid 2px teal;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(140, 252, 228) 0, rgb(46, 207, 159));
+}
