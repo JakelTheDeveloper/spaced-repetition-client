@@ -6,7 +6,7 @@ The spaced repetition technique is a method where the person is asked to remembe
 
 #### *[LIVE APP](https://spaced-repetition-gray.vercel.app)*
 #### *[FRONTEND REPO](https://github.com/JakelTheDeveloper/spaced-repetition-client)*
-#### *[FRONTEND REPO](https://github.com/JakelTheDeveloper/spaced-repetition-server)*
+#### *[BACKEND REPO](https://github.com/JakelTheDeveloper/spaced-repetition-server)*
 
 
 
