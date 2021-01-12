@@ -21,6 +21,6 @@ The spaced repetition technique is a method where the person is asked to remembe
   * JavaScript
 
 * Back-End
-* Node.js
-* Express
-* PostgreSQL
+  * Node.js
+  * Express
+  * PostgreSQL
