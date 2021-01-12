@@ -3,9 +3,13 @@
 
 The spaced repetition technique is a method where the person is asked to remember a certain fact with the time intervals increasing each time the fact is presented or said. This app incorporates this technique using a linked list to learn a new language.
 
-Live URL
-Client repo
-Server repo
+
+#### *[LIVE APP](https://spaced-repetition-gray.vercel.app)*
+#### *[FRONTEND REPO](https://github.com/JakelTheDeveloper/spaced-repetition-client)*
+#### *[FRONTEND REPO](https://github.com/JakelTheDeveloper/spaced-repetition-server)*
+
+
+
 
 
 ## Stack Used
