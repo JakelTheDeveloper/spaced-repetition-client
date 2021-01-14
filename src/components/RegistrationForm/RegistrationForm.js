@@ -44,7 +44,7 @@ class RegistrationForm extends Component {
   goToDashboard=(credentials)=>{
     return AuthApiService.postLogin(credentials)
     .then(res=>{this.context.processLogin(res.authToken)})
-    .catch(res = res.error)
+    .catch(res => res.error)
   }
 
   componentDidMount() {
