@@ -5,6 +5,18 @@
     border-radius: 10px;
     background: linear-gradient(to bottom, rgb(140, 252, 228) 0, rgb(46, 207, 159));
 }
+.feedbackGood{
+    text-align: center;
+    border:solid 2px green;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(140, 252, 140) 0, rgb(92, 207, 46));
+}
+.feedbackBad{
+    text-align: center;
+    border:solid 2px red;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(252, 140, 140) 0, rgb(207, 46, 46));
+}
 .answer_label{
     display: flex;
     justify-content: center;

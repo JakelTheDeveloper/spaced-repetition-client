@@ -59,9 +59,9 @@ class LearningRoute extends Component {
       < main className="DisplayFeedback" >
         {(myRes.isCorrect
           ?
-          <p>The correct translation
+          <p className = "feedbackGood">The correct translation
           for {myWord.nextWord} was {myRes.answer} and you chose {this.state.answer}!</p>
-          : <p>The correct translation
+          : <p className = "feedbackBad">The correct translation
           for {myWord.nextWord} was {myRes.answer} and you chose {this.state.answer}!</p>
         )
         }
@@ -81,7 +81,7 @@ class LearningRoute extends Component {
     let myRes = this.state.response
     return (
       <main className="DisplayScore">
-        <p className ="totalScore">Your total score is: {myRes.totalScore}</p>
+        {/* <p className ="totalScore">Your total score is: {myRes.totalScore}</p> */}
         {(myRes.isCorrect
           ?
           <section><h2>You were correct! :D</h2>
@@ -106,7 +106,7 @@ class LearningRoute extends Component {
         <span className="spanClass">{word.nextWord}</span>
         {(!this.state.next?<p className="totalScore">Your total score is: {word.totalScore}</p>:<p className="totalScore">Your total score is: {this.state.response.totalScore}</p>)}
         
-        <form onSubmit={this.handleSubmit}>
+        {(!this.state.next?<form onSubmit={this.handleSubmit}>
           <label htmlFor="learn-guess-input" className="answer_label">What's the translation for this word?</label> <br />
           <input type="text" value={this.state.answer} id="learn-guess-input" name="answer" onChange={this.handleChange} required />
 
@@ -114,7 +114,8 @@ class LearningRoute extends Component {
           {(!this.state.next ? <Button type='submit'>
             Submit your answer
         </Button> : <div></div>)}
-        </form>
+        </form>:<div></div>)}
+        
         {(this.state.next ? this.renderResponse() : <div></div>)}
         {(this.state.next ? this.renderFeedback() : <div></div>)}
         <main>
